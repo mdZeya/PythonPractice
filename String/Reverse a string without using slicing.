@@ -1,0 +1,8 @@
+Reverse a string without using slicing.
+
+name = "MdZeyaullah"
+rev = ""
+for char in name:
+    rev =  char + rev
+    
+print(rev)
