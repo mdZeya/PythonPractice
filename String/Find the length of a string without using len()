@@ -1,0 +1,11 @@
+Find the length of a string without using len()
+
+
+name = "Md zeyaullah"
+count = 0;
+
+
+for char in name:
+    count = count+1
+
+print(count)
