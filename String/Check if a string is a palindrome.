@@ -1,0 +1,14 @@
+Check if a string is a palindrome.
+
+
+
+name = "rajr"
+rev = ""
+
+for char in name:
+    rev = char + rev
+    
+if name == rev:
+    print("String is palindrome")
+else:
+    print("String is not Palindrome")
